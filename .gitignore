@@ -1,0 +1,11 @@
+# --- Secrets / keys ---
+.ssh/ .gnupg/ *.key *.pem *.p12 *.kdbx .env .secret *.asc *.age
+
+# --- Browsers & heavy app data ---
+.config/BraveSoftware/ .config/chromium/ .config/google-chrome/
+
+# --- Caches / logs / temp ---
+.cache/ **/*.log Downloads/ .tmp/
+
+# --- OS/editor noise ---
+.DS_Store Thumbs.db
